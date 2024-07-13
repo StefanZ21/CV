@@ -1,0 +1,22 @@
+body{
+    width:100%;
+    margin:0px;
+    height:100vh; 
+    background-color: #486A47;
+}
+#i{
+    margin-left: 10px;
+}
+.zone1{
+    width:100%;
+    overflow: auto;
+    height: 100vh;
+}
+.whitespace{
+    height:100vh;
+    width:100%;
+}
+.nav{
+    gap: 20px;
+}
+

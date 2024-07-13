@@ -1,0 +1,188 @@
+.introduction{
+    height:70vh;
+    width:100%;
+    position: relative;
+    z-index: 1;
+}
+.intr-picture{
+    width:100%;
+    height:85vh;
+    border:0px;
+    margin-left:0px;
+    margin-right:0px;
+    opacity: 60%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.description{
+    width:30%;
+    height:75vh;
+    position: absolute;
+    left:35%;
+    top:5%;
+    backdrop-filter: blur(5px);
+    z-index: 2;
+    background-color:rgba(255, 255, 255, 0.199);
+    border-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.525);
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.picture-me{
+    position: absolute;
+    width:40%;
+    height:30%;
+    border-radius: 50%;
+    left:30%;
+    top:3%;
+    
+}
+.Stefan{
+    font-size: 320%;
+    font-weight: bold;
+    position: absolute;
+    top:32%;
+    left:17.5%;
+    color: rgba(49, 110, 49, 0.834);
+}
+@media screen and (max-width:1500px){
+    .Stefan{
+        font-size:300%;
+    }
+}
+@media screen and (min-width:780px) and (max-width:1500px){
+    .Stefan{
+        font-size:180%;
+    }
+    .desc-text{
+        font-size: 20%;
+        margin-top: -35px;
+    }
+}
+@media screen and (max-width:780px) {
+    
+   .description{
+    width: 60%;
+    margin-left: -10%;
+   }
+    .picture-me{
+        width: 30%;
+        height: 30%;
+    }
+    .Stefan{
+        font-size:150%;
+    }
+    .desc-text{
+        font-size: 30%;
+        margin-top: -30px;
+    }
+    .prj-main-title {
+        font-size: 20px;
+        width:100%;
+    }
+    .prj-main-title h1{
+        font-size: 80px;
+    }
+    .projects .prj{ 
+        width:80%;
+    }
+    .prj .title-prj h1{
+        font-size: 50px;
+    }
+    .prj .title-prj p{
+        font-size: 20px;
+    }
+}
+.desc-text{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(12, 125, 212);
+    font-size: 120%;
+}
+.desc-container{
+    position: absolute;
+    top:50%;
+    left:5%;
+}
+.as{
+    margin-left:5%;
+}
+
+.container{
+    gap: 10px;
+    overflow: auto;
+
+}
+
+.projects{
+    position:relative;
+    top: 270px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr ;
+    grid-auto-rows: 1fr;
+    gap:100px;
+    justify-items: center;
+}
+.prj-main-title{
+    text-align: center;
+    font-size: 400%;
+    text-decoration: underline;
+    color: green;
+    position: relative;
+    top:200px;
+    background-color: rgba(233, 233, 233, 0.188);
+    border-radius: 50%;
+    width:50%;
+    left:25%;
+    opacity: 70%;
+    border: 1px solid grey;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.prj{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    width: 80%;
+    height:50vh;
+    border: 2px solid black;
+    
+}
+.title-prj{
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    align-self: flex-end;
+    font-size: 210%;
+    color:rgb(12, 125, 212);
+
+}
+.image-prj{
+    background-color: white;
+    grid-row: span 2;
+    display:flex;
+    justify-content: center;
+    
+    border-left: 2px solid black;
+}
+.para-prj{
+    font-family: sans-serif;
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    align-self: flex-start;
+    font-size: 170%;
+    font-weight: bold;
+    color: rgba(49, 110, 49, 0.834);
+}
+.prj-link{
+    color: rgb(12, 125, 212);
+}
+body{
+    overflow: hidden;
+    height: 100vh;
+   
+}
+.container2{
+    overflow: auto;
+    height: 100%;
+}

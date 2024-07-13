@@ -1,0 +1,16 @@
+
+.container{
+    margin-top: 5%;
+    margin-left: 25%;
+    border-radius: 100px;
+    justify-content: center;
+   display: flex;
+    text-align: center ;
+    align-items: center;
+    height:80vh;
+    width: 50%;
+    background-color: antiquewhite;
+}
+.contact{
+    width: 80%;
+}
